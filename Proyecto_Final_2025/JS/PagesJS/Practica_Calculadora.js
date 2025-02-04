@@ -7,13 +7,8 @@ console.log(`Funcionando Archivo: Practica_Calculadora`);
 
 //Mostrar
 //Alert, console.log / Inner
-
-
  console.log('Mostrar nombre:',nombre);
  console.log('Mostrar edad:',edad);
-
-
-
 
 }
 
