@@ -1,7 +1,5 @@
 console.log(`Funcionando Archivo:  Practica_Listado_Clientes`);
 
-function exportToExcel() {
-
     function exportToExcel() {
 
         try {
@@ -45,5 +43,5 @@ function exportToExcel() {
         } catch (error) {
             alert("Error al exportar a PDF: " + error.message);
         }
-    }
+    
 }
