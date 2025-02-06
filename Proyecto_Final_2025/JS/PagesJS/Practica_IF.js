@@ -61,3 +61,58 @@ function evaluarNota() {
 //parseFloat decimales
 //monto * 0.9
 
+function calcularDescuento() {
+        //El descuento es de 10%
+    //leer el monto
+    let monto =document.getElementById("monto").value;//guardae 
+    console.log(monto)
+    //convertir a numero
+    let montoconvertido = parseFloat(monto);
+    console.log(montoconvertido)
+    //verificar si es suficiente para un descuento
+
+    if (montoconvertido >= 100) {
+        console.log("Hola")
+        let descuento= montoconvertido * 0.09;
+        console.log(descuento);
+        let totalcompra =montoconvertido - descuento;
+       
+
+        document.getElementById("mensajeDescuento").innerText= //para mandar a pantalla 
+        `
+        Aplicas para el descuento $${totalcompra}
+
+        `
+    } else {
+        document.getElementById("mensajeDescuento").innerText=
+        `
+        No aplicas para el descuento $${montoconvertido}
+        
+        `//para mandar a pantalla 
+     
+    }
+}
+
+
+
+
+function verificarMayorMenor () {
+    let edad = document.getElementById('edadSimple').value;
+    console.log(edad)
+    let edadconvertido = parseFloat(edad);
+    console.log(edadconvertido)
+    if (edadconvertido >= 18) {
+      document.getElementById("mensajeEdadSimple").innerText =
+    `
+    Si eres mayo de edad 
+    `
+     
+    } else {
+        document.getElementById("mensajeEdadSimple").innerText =
+        `
+        No eres mayor de edad
+        `
+    }
+}
+
+
