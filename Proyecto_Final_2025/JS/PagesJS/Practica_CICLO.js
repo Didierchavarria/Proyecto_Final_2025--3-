@@ -141,3 +141,13 @@ function mostrarTodasLasPersonas() {
 
   });
 }
+
+function mayoresDeEdad() {
+let valor1 = document.getElementById('listaMayores');
+  personas.forEach((element) => {
+  if (element.edad >= 18) {
+  valor1 .innerhtml += `<li> - Nombre: ${element.nombre}. - Edad: ${element.edad}</li>`;
+  }
+  });
+}
+  
