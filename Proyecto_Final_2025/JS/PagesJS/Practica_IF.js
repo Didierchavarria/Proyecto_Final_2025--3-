@@ -108,7 +108,7 @@ function verificarMayorMenor () {
     `
      
     } else {
-        document.getElementById("mensajeEdadSimple").innerText =
+        document.getElementById("").innerText =
         `
         No eres mayor de edad
         `

@@ -117,3 +117,27 @@ function personasActivas() {
 }
 //3,4,5
 // entrgable 2 proyecto
+
+function primeraMayorDeEdad() {
+  
+}
+let resultado = document.getElementById('resultadoMayor');
+let busqueda = personas.find((x) => x.edad >= 18);
+if (busqueda) {
+  resultado.innerHTML = `La primera persona mayor de edad es ${busqueda.nombre}`
+
+
+} else {
+   resultado.innerHTML = `No se encontro nadie mayor de edad`;
+}
+
+
+
+
+function mostrarTodasLasPersonas() {
+  let resultado = document.getElementById('listaPersonas');
+  personas.forEach(element => {
+    resultado.innerHTML+=  `<li> - Nombre: ${element.nombre}, - Edad: ${element.edad}, - Activo: ${element.activo}. </li>`
+    activo: ${element.activo} </li>`;
+  });
+}
