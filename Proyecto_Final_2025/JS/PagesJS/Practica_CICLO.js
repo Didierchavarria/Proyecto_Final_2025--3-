@@ -138,6 +138,6 @@ function mostrarTodasLasPersonas() {
   let resultado = document.getElementById('listaPersonas');
   personas.forEach(element => {
     resultado.innerHTML+=  `<li> - Nombre: ${element.nombre}, - Edad: ${element.edad}, - Activo: ${element.activo}. </li>`
-    activo: ${element.activo} </li>`;
+
   });
 }
