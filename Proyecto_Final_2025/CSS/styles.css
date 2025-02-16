@@ -1,8 +1,8 @@
 
 :root{
-  --fondogradiante:linear-gradient(to bottom, #dd2476, #ff512f);  
+  --fondogradiante:linear-gradient(to bottom, #4624dd, #0adfb1);  
   --colorglobal:#dd2476;
-  --TextClaro: white;
+  --TextClaro: rgb(0, 0, 0);
 
 }
 
@@ -37,4 +37,7 @@ footer{
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.contenedor{
+    background-color: rgb(0, 0, 0);
 }
